@@ -63,3 +63,27 @@ footer {
 footer a {
     color: inherit;
 }
+
+@media (max-width: 800px) {
+    .data {
+        width: 90%;
+    }
+
+    .data .song {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 450px) {
+    .data {
+        width: 95%;
+    }
+    .top h1 {
+
+        font-size: 38px;
+    }
+
+    .data .song {
+        font-size: 22px;
+    }
+}
