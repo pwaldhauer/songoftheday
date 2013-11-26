@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Song of the day</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div class="top">
+    <h1>song of the day</h1>
+
+<div class="data">
+    <% for (var i in data) { %>
+    <div>
+        <span class="date"><%= data[i].date %></span>
+        <span class="song"><%= data[i].top_track.track.artist %> – <%= data[i].top_track.track.title %></span>
+        <span class="totals">(<%= data[i].top_track.count %>/<%= data[i].sum %>)</span></div>
+    <% } %>
+</div>
+
+</div>
+
+
+<footer>
+    <p>Musik hören mit <a href="http://knuspermagier.de">knuspermagier.de</a> &middot; Info auf <a href="https://github.com/pwaldhauer/48stunden48stunden">Github</a>
+</footer>
+
+
+</body>
+</html>

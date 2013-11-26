@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+
+    background: #111;
+}
+
+.data {
+    width: 50%;
+    margin: auto;
+}
+
+.data div {
+    padding: 15px;
+    margin-bottom: 85px;
+    text-align: center;
+}
+
+.data .date {
+    display: block;
+    width: 150px;
+    margin: auto;
+    border-bottom: 1px #ddd solid;
+    padding: 5px;
+
+}
+
+.data .song {
+    display: block;
+    font-size: 38px;
+    padding: 15px;
+}
+
+.top {
+    background: #fff;
+    width: 100%;
+
+    padding: 50px 0;
+}
+
+.top h1 {
+    font-size: 52px;
+    font-weight: 400;
+    text-align: center;
+
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+footer a {
+    color: inherit;
+}
